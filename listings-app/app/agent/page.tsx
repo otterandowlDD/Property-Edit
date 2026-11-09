@@ -3,7 +3,12 @@ import {useState} from "react";
 type Result={source?:string;record?:{id:string;name:string;caption:string;website:{status:string;url:string};facebook:{status:string;id?:string;error?:string};instagram:{status:string;id?:string;error?:string}};auditSaved?:boolean;error?:string;note?:string};
 const template=JSON.stringify({id:"PE-001",status:"ว่าง",name:"Example Residence",location:"Bangkok",rent:25000,sale:null,area:"40",bedrooms:"1",folder:""},null,2);
 export default function AgentDashboard(){
- const [token,setToken]=useState(""),[mode,setMode]=useState<"paste"|"sheet">("paste"),[sourceId,setSourceId]=useState(""),[listing,setListing]=useState(""),[imageUrl,setImageUrl]=useState(""),[permission,setPermission]=useState(false),[result,setResult]=useState<Result|null>(null),[loading,setLoading]=useState(false);
+ const [source,setSource]=useState<{id:string;name:string;location:string;rent:number|null;alreadyPublished:boolean}[]>([]),[sourceError,setSourceError]=useState(""),[fetching,setFetching]=useState(false);const [token,setToken]=useState(""),[mode,setMode]=useState<"paste"|"sheet">("paste"),[sourceId,setSourceId]=useState(""),[listing,setListing]=useState(""),[imageUrl,setImageUrl]=useState(""),[permission,setPermission]=useState(false),[result,setResult]=useState<Result|null>(null),[loading,setLoading]=useState(false);
+ async function loadSheet(){
+ setFetching(true);setSourceError("");
+ try{const r=await fetch("/api/agent/source",{headers:{"x-pe-admin-token":token},cache:"no-store"});const j=await r.json();if(!r.ok){setSourceError(j.error||"Cannot load Google Sheet");setSource([])}else setSource(j.items||[]);}
+ catch(e){setSourceError(String(e))}finally{setFetching(false)}
+ }
  async function publish(){
  setLoading(true);setResult(null);
  try{const response=await fetch("/api/agent",{method:"POST",headers:{"Content-Type":"application/json","x-pe-admin-token":token},body:JSON.stringify({confirmedPermission:permission,sourceId:mode==="sheet"?sourceId.trim():undefined,listing:mode==="paste"?listing:undefined,imageUrl:imageUrl.trim()||undefined})});setResult(await response.json());}
@@ -18,6 +23,7 @@ export default function AgentDashboard(){
  <section style={{background:"white",padding:24,border:"1px solid #ddd"}}>
  <label>Admin token (เก็บในหน้าเว็บชั่วคราวเท่านั้น ไม่บันทึกใน Browser Storage)<input type="password" autoComplete="off" value={token} onChange={e=>setToken(e.target.value)} style={inputStyle} placeholder="Secret from Vercel PE_ADMIN_TOKEN"/></label>
  <div style={{display:"flex",gap:10,margin:"24px 0"}}><button onClick={()=>setMode("paste")} aria-pressed={mode==="paste"}>Paste JSON Listing</button><button onClick={()=>setMode("sheet")} aria-pressed={mode==="sheet"}>Import by Google Sheet ID</button></div>
+ {mode==="sheet"&&<div style={{margin:"12px 0"}}><button disabled={!token||fetching} onClick={loadSheet}>{fetching?"Loading...":"ดึงรายการว่างล่าสุดจาก Google Sheets"}</button>{sourceError&&<p role="status" style={{color:"#9b391b"}}>{sourceError}</p>}{source.length>0&&<label style={{display:"block",marginTop:12}}>เลือก Listing จาก Sheet1<select style={inputStyle} value={sourceId} onChange={e=>setSourceId(e.target.value)}><option value="">เลือกรายการ</option>{source.map(x=><option key={x.id} value={x.id} disabled={x.alreadyPublished}>{x.id} · {x.name} · {x.location} · {x.rent||"ถามราคา"}{x.alreadyPublished?" (Published)":""}</option>)}</select></label>}</div>}
  {mode==="paste"?<label>Listing JSON<textarea value={listing} onChange={e=>setListing(e.target.value)} placeholder={template} rows={12} style={{...inputStyle,resize:"vertical",fontFamily:"monospace",fontSize:13}}/></label>:<label>Listing ID จาก Google Sheet<input value={sourceId} onChange={e=>setSourceId(e.target.value)} placeholder="เช่น 118" style={inputStyle}/></label>}
  <p style={{fontSize:13,color:"#647068"}}>ฟิลด์จำเป็น: id, status = ว่าง, name, location และ rent หรือ sale ส่วนโหมด Google Sheet จะเช็กสถานะจากต้นทางอีกครั้ง</p>
  <label>Public image HTTPS URL (ถ้าได้รับอนุญาตและเปิดภาพสาธารณะสำหรับ Instagram)<input type="url" value={imageUrl} onChange={e=>setImageUrl(e.target.value)} style={inputStyle} placeholder="https://.../photo.jpg"/></label>

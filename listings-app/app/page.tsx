@@ -1,5 +1,11 @@
-import {readListings} from "@/lib/data";import Browser from "./property-browser";export const dynamic="force-dynamic";
-export default async function Page(){let items:Awaited<ReturnType<typeof readListings>>={items:[],connected:false};let error="";
-try{items=await readListings()}catch(e){console.error("Listings unavailable",e);error="ไม่สามารถดึงข้อมูลจาก Google Sheets ได้ กรุณาตรวจสอบสิทธิ์บัญชีบริการ";}
-return <Browser listings={items.items} warning={error||(!items.connected?"ยังไม่ได้เชื่อม Google Drive — ไม่แสดงรายการตัวอย่างเป็นห้องว่างจริง":"")} />;
+import Browser from "./property-browser";
+import {readRecords} from "@/lib/publishing";
+import type {Listing} from "@/lib/data";
+export const dynamic="force-dynamic";
+export default async function Page(){
+ let listings:Listing[]=[];let warning="";
+ try{const published=(await readRecords()).records.filter(x=>x.website.status==="published");
+ listings=published.map(x=>({id:x.id,status:"ว่าง",folder:x.folder,location:x.location,name:x.name,rent:x.rent,sale:x.sale,area:x.area,floor:"",bedrooms:x.bedrooms,posted:x.approvedAt}));}
+ catch(e){console.error("Published listing database unavailable",e);warning="ระบบรายการทรัพย์ยังไม่พร้อมใช้งาน";}
+ return <Browser listings={listings} warning={warning||(!process.env.PE_GITHUB_TOKEN?"ยังไม่เชื่อมฐานข้อมูล Published Listings — ยังไม่มีรายการที่ผ่านการอนุมัติ":"")} />;
 }

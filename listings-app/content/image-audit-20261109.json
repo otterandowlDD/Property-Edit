@@ -1,0 +1,822 @@
+{
+  "date": "2026-11-09",
+  "detailedListingsChecked": 139,
+  "availableListings": 135,
+  "accessibleFolders": 135,
+  "imageFilesEnumerated": 1407,
+  "importedImages": 0,
+  "verifiedPublishedMappings": 0,
+  "publicationRights": "unverified",
+  "listings": [
+    {
+      "id": "2",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "4",
+      "accessible": true,
+      "imageCount": 16,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "5",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "6",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "7",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "8",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "10",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "11",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "12",
+      "accessible": true,
+      "imageCount": 18,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "13",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "14",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "15",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "16",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "17",
+      "accessible": true,
+      "imageCount": 16,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "18",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "19",
+      "accessible": true,
+      "imageCount": 17,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "20",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "21",
+      "accessible": true,
+      "imageCount": 16,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "22",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "23",
+      "accessible": true,
+      "imageCount": 6,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "24",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "25",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "26",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "27",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "29",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "30",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "31",
+      "accessible": true,
+      "imageCount": 13,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "32",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "33",
+      "accessible": true,
+      "imageCount": 17,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "34",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "35",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "36",
+      "accessible": true,
+      "imageCount": 5,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "37",
+      "accessible": true,
+      "imageCount": 13,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "38",
+      "accessible": true,
+      "imageCount": 18,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "39",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "40",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "41",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "42",
+      "accessible": true,
+      "imageCount": 4,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "43",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "44",
+      "accessible": true,
+      "imageCount": 6,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "45",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "46",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "47",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "48",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "49",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "50",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "51",
+      "accessible": true,
+      "imageCount": 15,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "52",
+      "accessible": true,
+      "imageCount": 6,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "53",
+      "accessible": true,
+      "imageCount": 13,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "54",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "55",
+      "accessible": true,
+      "imageCount": 3,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "56",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "57",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "58",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "59",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "60",
+      "accessible": true,
+      "imageCount": 23,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "61",
+      "accessible": true,
+      "imageCount": 13,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "62",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "63",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "64",
+      "accessible": true,
+      "imageCount": 15,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "65",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "66",
+      "accessible": true,
+      "imageCount": 6,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "67",
+      "accessible": true,
+      "imageCount": 6,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "68",
+      "accessible": true,
+      "imageCount": 18,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "69",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "70",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "71",
+      "accessible": true,
+      "imageCount": 5,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "72",
+      "accessible": true,
+      "imageCount": 14,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "73",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "74",
+      "accessible": true,
+      "imageCount": 6,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "75",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "76",
+      "accessible": true,
+      "imageCount": 14,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "77",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "78",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "79",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "80",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "81",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "82",
+      "accessible": true,
+      "imageCount": 15,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "83",
+      "accessible": true,
+      "imageCount": 17,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "84",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "85",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "86",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "87",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "88",
+      "accessible": true,
+      "imageCount": 18,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "89",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "90",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "91",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "92",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "93",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "94",
+      "accessible": true,
+      "imageCount": 1,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "95",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "96",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "97",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "98",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "99",
+      "accessible": true,
+      "imageCount": 24,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "100",
+      "accessible": true,
+      "imageCount": 34,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "101",
+      "accessible": true,
+      "imageCount": 5,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "102",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "103",
+      "accessible": true,
+      "imageCount": 13,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "104",
+      "accessible": true,
+      "imageCount": 18,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "105",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "106",
+      "accessible": true,
+      "imageCount": 27,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "107",
+      "accessible": true,
+      "imageCount": 1,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "108",
+      "accessible": true,
+      "imageCount": 15,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "109",
+      "accessible": true,
+      "imageCount": 20,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "110",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "111",
+      "accessible": true,
+      "imageCount": 5,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "112",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "113",
+      "accessible": true,
+      "imageCount": 14,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "114",
+      "accessible": true,
+      "imageCount": 12,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "115",
+      "accessible": true,
+      "imageCount": 13,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "116",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "117",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "118",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "119",
+      "accessible": true,
+      "imageCount": 10,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "120",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "121",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "122",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "123",
+      "accessible": true,
+      "imageCount": 5,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "124",
+      "accessible": true,
+      "imageCount": 13,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "125",
+      "accessible": true,
+      "imageCount": 5,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "126",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "127",
+      "accessible": true,
+      "imageCount": 9,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "128",
+      "accessible": true,
+      "imageCount": 2,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "129",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "130",
+      "accessible": true,
+      "imageCount": 6,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "131",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "132",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "133",
+      "accessible": true,
+      "imageCount": 16,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "134",
+      "accessible": true,
+      "imageCount": 15,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "135",
+      "accessible": true,
+      "imageCount": 14,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "136",
+      "accessible": true,
+      "imageCount": 11,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "137",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "139",
+      "accessible": true,
+      "imageCount": 7,
+      "status": "blocked_publication_rights_unverified"
+    },
+    {
+      "id": "140",
+      "accessible": true,
+      "imageCount": 8,
+      "status": "blocked_publication_rights_unverified"
+    }
+  ]
+}

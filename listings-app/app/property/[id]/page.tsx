@@ -1,3 +1,4 @@
+import {listingImages} from "@/lib/listing-images";
 import {notFound} from "next/navigation";
 import {readRecords} from "@/lib/publishing";
 export const dynamic="force-dynamic";
@@ -6,13 +7,14 @@ export default async function PropertyPage({params}:{params:Promise<{id:string}>
  if(!/^[A-Za-z0-9_-]{1,40}$/.test(id))notFound();
  let records;try{records=(await readRecords()).records}catch{notFound()}
  const p=records.find(x=>x.id===id&&x.website.status==="published");if(!p)notFound();
+ const photos=listingImages(id);
  const money=(v:number)=>new Intl.NumberFormat("th-TH").format(v);
  return <main style={{maxWidth:880,margin:"auto",padding:"50px 24px"}}>
  <a href="/" style={{color:"inherit"}}>← PROPERTY EDIT / LISTINGS</a>
  <p style={{marginTop:54,fontSize:12,letterSpacing:2}}>AVAILABLE LISTING · SUBJECT TO CONFIRMATION</p>
  <h1 style={{font:"normal clamp(38px,6vw,64px) Georgia,serif",margin:"16px 0"}}>{p.name}</h1>
  <p>{p.location}</p>
- {p.imageUrl&&<img src={p.imageUrl} alt={p.name} style={{width:"100%",aspectRatio:"16/9",objectFit:"cover"}}/>}
+ {(photos.length?photos:p.imageUrl?[p.imageUrl]:[]).map((src,index)=><img key={src} src={src} alt={p.name+" · "+(index+1)} loading={index?"lazy":"eager"} style={{width:"100%",aspectRatio:"16/9",objectFit:"cover",marginBottom:12}}/>)}
  <h2 style={{fontFamily:"Georgia,serif"}}>{p.rent?"฿"+money(p.rent)+" / month":p.sale?"฿"+money(p.sale):"Contact for price"}</h2>
  <p>{[p.area?p.area+" ตร.ม.":"",p.bedrooms?p.bedrooms+" ห้องนอน":""].filter(Boolean).join(" · ")}</p>
  <p style={{whiteSpace:"pre-line",lineHeight:1.8}}>{p.caption}</p>

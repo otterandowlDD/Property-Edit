@@ -1,3 +1,4 @@
+import {readPrivateManifest,galleryPaths} from "./private-images";
 import manifest from "@/content/image-manifest.json";
 import approvals from "@/content/image-approvals.json";
 type Photo={driveFileId:string;path:string;sha256:string};
@@ -11,5 +12,5 @@ function approvedPhotos(id:string):Photo[]{
  if(!a)return [];
  return entry.images.filter(x=>a.fileIds.includes(x.driveFileId)&&/^\/images\/rent\/pe-sheet-[A-Za-z0-9_-]+\.(jpg|png|webp)$/.test(x.path));
 }
-export function listingImages(id:string):string[]{return approvedPhotos(id).map(x=>x.path);}
+export async function listingImages(id:string):Promise<string[]>{const l=(await readPrivateManifest()).listings[id];return l?galleryPaths(l):approvedPhotos(id).map(x=>x.path);}
 export function importedImage(id:string){for(const listingId of Object.keys(entries)){const image=approvedPhotos(listingId).find(x=>x.driveFileId===id);if(image)return image.path;}return null;}

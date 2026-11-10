@@ -1,0 +1,29 @@
+{
+  "directory": {
+    "listings": 135,
+    "projects": 124,
+    "verified": 2,
+    "pending": 122
+  },
+  "sdk": "isolated test double; not live Google Maps",
+  "passed": [
+    "missing credentials: no SDK/key request, usable fallback",
+    "135 source-available cards",
+    "reviewed Thai/English aliases search together",
+    "fallback project-to-list filter",
+    "project filter intersects existing price filter",
+    "reset restores rental filter",
+    "two project markers at exact verified coordinates and fitted bounds",
+    "two owl marker \u2192 summary \u2192 project-only listings interactions",
+    "listing-to-map project selection",
+    "missing coordinates never create guessed pins",
+    "empty filters remove markers and stale selection",
+    "mobile 390px: no page overflow and tappable owl",
+    "project cover broken/missing-image fallback",
+    "SDK network failure state",
+    "Google authentication/billing failure state",
+    "no browser JavaScript exceptions",
+    "directory IDs, alias grouping, distinct phases, null pending coordinates"
+  ],
+  "mapToListInteractions": 2
+}

@@ -1,0 +1,2389 @@
+{
+  "source": "Listing / Sheet1",
+  "checkedAt": "2026-11-10",
+  "availability": "Source says ว่าง; reconfirm with agent before viewing",
+  "normalization": "Whitespace/case/dash normalization; reviewed aliases only. Similar names and phases are not automatically merged.",
+  "projects": [
+    {
+      "id": "project-2",
+      "name": "First Tower",
+      "aliases": [
+        "First Tower"
+      ],
+      "listingIds": [
+        "2"
+      ],
+      "area": "BTS เพลินจิต",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-4",
+      "name": "ควินทารา มาย'เซน พร้อมพงษ์",
+      "aliases": [
+        "ควินทารา มาย'เซน พร้อมพงษ์"
+      ],
+      "listingIds": [
+        "4"
+      ],
+      "area": "พร้อมพงษ์",
+      "status": "verified",
+      "confidence": "high",
+      "lat": 13.740374,
+      "lng": 100.572638,
+      "address": "ซอยสุขุมวิท 39 (พร้อมพงษ์), วัฒนา, กรุงเทพมหานคร",
+      "sources": [
+        "https://www.estarpcl.com/projects/quintara-mhyzen-phrom-phong",
+        "https://www.google.com/maps?daddr=13.740374,100.572638&saddr=My+current+location"
+      ],
+      "verifiedAt": "2026-11-10",
+      "reviewReason": "Developer's named project Google Maps marker and directions destination agree. Project-level location only; not a unit position."
+    },
+    {
+      "id": "project-5",
+      "name": "คาซ่า รัชดา-ท่าพระ",
+      "aliases": [
+        "คาซ่า รัชดา-ท่าพระ"
+      ],
+      "listingIds": [
+        "5"
+      ],
+      "area": "BTS ตลาดพลู",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-6",
+      "name": "The Waterford Sukhumvit 50",
+      "aliases": [
+        "The Waterford Sukhumvit 50"
+      ],
+      "listingIds": [
+        "6"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-7",
+      "name": "Aspen Condo Lasalle",
+      "aliases": [
+        "Aspen Condo Lasalle"
+      ],
+      "listingIds": [
+        "7"
+      ],
+      "area": "BTS ศรีลาซาล",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-8",
+      "name": "ไอดีโอ โมบิ วงศ์สว่าง อินเตอร์เชนจ์",
+      "aliases": [
+        "ไอดีโอ โมบิ วงศ์สว่าง อินเตอร์เชนจ์"
+      ],
+      "listingIds": [
+        "8"
+      ],
+      "area": "MRT บางซ่อน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-10",
+      "name": "ลุมพินี เพลส ปิ่นเกล้า 1",
+      "aliases": [
+        "ลุมพินี เพลส ปิ่นเกล้า 1"
+      ],
+      "listingIds": [
+        "10"
+      ],
+      "area": "MRT บางยี่ขัน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-11",
+      "name": "ดิ เอ็มโพริโอ เพลส สุขุมวิท 24",
+      "aliases": [
+        "ดิ เอ็มโพริโอ เพลส สุขุมวิท 24"
+      ],
+      "listingIds": [
+        "11"
+      ],
+      "area": "BTS พร้อมพงษ์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-12",
+      "name": "The Tree พัฒนาการ – เอกมัย",
+      "aliases": [
+        "The Tree พัฒนาการ – เอกมัย"
+      ],
+      "listingIds": [
+        "12"
+      ],
+      "area": "Airport Link รามคำแหง",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-13",
+      "name": "Denim Jatujak",
+      "aliases": [
+        "Denim Jatujak"
+      ],
+      "listingIds": [
+        "13"
+      ],
+      "area": "BTS หมอชิต",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-14",
+      "name": "The Issara Sathorn",
+      "aliases": [
+        "The Issara Sathorn"
+      ],
+      "listingIds": [
+        "14"
+      ],
+      "area": "BTS ช่องนนทรี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-15",
+      "name": "The Cube Urban สาทร-จันทน์",
+      "aliases": [
+        "The Cube Urban สาทร-จันทน์"
+      ],
+      "listingIds": [
+        "15"
+      ],
+      "area": "BTS สุรศักดิ์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-16",
+      "name": "Ideo Mobi พระราม 9",
+      "aliases": [
+        "Ideo Mobi พระราม 9"
+      ],
+      "listingIds": [
+        "16"
+      ],
+      "area": "MRT พระราม9",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-17",
+      "name": "Life Asoke-Rama 9",
+      "aliases": [
+        "Life Asoke-Rama 9"
+      ],
+      "listingIds": [
+        "17"
+      ],
+      "area": "MRT พระราม 9",
+      "status": "verified",
+      "confidence": "high",
+      "lat": 13.754928,
+      "lng": 100.564536,
+      "address": "Makkasan, Ratchathewi, Bangkok",
+      "sources": [
+        "https://www.apthai.com/en/condominium/life-asoke-rama-9"
+      ],
+      "verifiedAt": "2026-11-10",
+      "reviewReason": "Matched exact project page title and named project location.map.lat/lng plus address in developer Google map data. Project-level point, not a unit address. Google Places identity check pending."
+    },
+    {
+      "id": "project-18",
+      "name": "คาวะ เฮาส์",
+      "aliases": [
+        "คาวะ เฮาส์"
+      ],
+      "listingIds": [
+        "18",
+        "23"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-19",
+      "name": "ศุภาลัย ปาร์ค ราชพฤกษ์-เพชรเกษม",
+      "aliases": [
+        "ศุภาลัย ปาร์ค ราชพฤกษ์-เพชรเกษม"
+      ],
+      "listingIds": [
+        "19"
+      ],
+      "area": "BTS-MRT บางหว้า",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-20",
+      "name": "ศุภาลัย ไลท์ สาทร-เจริญราษฎร์",
+      "aliases": [
+        "ศุภาลัย ไลท์ สาทร-เจริญราษฎร์"
+      ],
+      "listingIds": [
+        "20"
+      ],
+      "area": "BTS สุรศักดิ์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-21",
+      "name": "ลุมพินี วิลล์ อ่อนนุช 46 (โครงการ 77-2)",
+      "aliases": [
+        "ลุมพินี วิลล์ อ่อนนุช 46 (โครงการ 77-2)"
+      ],
+      "listingIds": [
+        "21"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-22",
+      "name": "Nue District R9",
+      "aliases": [
+        "Nue District R9"
+      ],
+      "listingIds": [
+        "22"
+      ],
+      "area": "MRT พระราม 9",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-24",
+      "name": "Rhythm Sathorn",
+      "aliases": [
+        "Rhythm Sathorn"
+      ],
+      "listingIds": [
+        "24"
+      ],
+      "area": "BTS สะพานตากสิน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-25",
+      "name": "แม่น้ำเรสซิเด้นท์",
+      "aliases": [
+        "แม่น้ำเรสซิเด้นท์"
+      ],
+      "listingIds": [
+        "25"
+      ],
+      "area": "BTS สะพานตากสิน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-26",
+      "name": "SOHO Bangkok Ratchada",
+      "aliases": [
+        "SOHO Bangkok Ratchada"
+      ],
+      "listingIds": [
+        "26"
+      ],
+      "area": "MRT ห้วยขวาง",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-27",
+      "name": "U Delight @ Talat Phlu Station",
+      "aliases": [
+        "U Delight @ Talat Phlu Station"
+      ],
+      "listingIds": [
+        "27"
+      ],
+      "area": "BTS ตลาดพลู",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-29",
+      "name": "Budget Condo Tiwanon",
+      "aliases": [
+        "Budget Condo Tiwanon"
+      ],
+      "listingIds": [
+        "29"
+      ],
+      "area": "MRT สถานีกระทรวงสาธารณสุข",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-30",
+      "name": "The Parkland เพชรเกษม 56",
+      "aliases": [
+        "The Parkland เพชรเกษม 56"
+      ],
+      "listingIds": [
+        "30"
+      ],
+      "area": "MRT ภาษีเจริญ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-31",
+      "name": "IDEO Rama 9 - Asoke",
+      "aliases": [
+        "IDEO Rama 9 - Asoke",
+        "ไอดีโอ พระราม 9 - อโศก"
+      ],
+      "listingIds": [
+        "31",
+        "38"
+      ],
+      "area": "MRT พระราม 9",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-32",
+      "name": "พลัมคอนโด สุขุมวิท 97/1",
+      "aliases": [
+        "พลัมคอนโด สุขุมวิท 97/1"
+      ],
+      "listingIds": [
+        "32"
+      ],
+      "area": "BTS บางจาก",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-33",
+      "name": "ออนิกซ์ พหลโยธิน",
+      "aliases": [
+        "ออนิกซ์ พหลโยธิน"
+      ],
+      "listingIds": [
+        "33"
+      ],
+      "area": "BTS สะพานควาย",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-34",
+      "name": "OKA HAUS SUKHUMVIT 36",
+      "aliases": [
+        "OKA HAUS SUKHUMVIT 36",
+        "OKA HAUS Sukhumvit 36"
+      ],
+      "listingIds": [
+        "34",
+        "119"
+      ],
+      "area": "BTS ทองหล่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-35",
+      "name": "The Key BTS วุฒากาศ",
+      "aliases": [
+        "The Key BTS วุฒากาศ"
+      ],
+      "listingIds": [
+        "35"
+      ],
+      "area": "BTS วุฒากาศ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-36",
+      "name": "ริธิ่ม เอกมัย เอสเตท",
+      "aliases": [
+        "ริธิ่ม เอกมัย เอสเตท"
+      ],
+      "listingIds": [
+        "36"
+      ],
+      "area": "BTS เอกมัย",
+      "status": "verified",
+      "confidence": "high",
+      "lat": 13.7292864,
+      "lng": 100.5858317,
+      "address": "Soi Ekkamai, Sukhumvit 63 Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "sources": [
+        "https://www.apthai.com/en/condominium/rhythm-ekkamai-estate"
+      ],
+      "verifiedAt": "2026-11-10",
+      "reviewReason": "Matched exact project page title and named project location.map.lat/lng plus address in developer Google map data. Project-level point, not a unit address. Google Places identity check pending."
+    },
+    {
+      "id": "project-37",
+      "name": "เคฟ ทียู (KAVE TU)",
+      "aliases": [
+        "เคฟ ทียู (KAVE TU)"
+      ],
+      "listingIds": [
+        "37"
+      ],
+      "area": "ม.ธรรมศาสตร์ รังสิต",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-39",
+      "name": "ไนท์บริดจ์ พหลโยธิน อินเตอร์เชนจ์",
+      "aliases": [
+        "ไนท์บริดจ์ พหลโยธิน อินเตอร์เชนจ์"
+      ],
+      "listingIds": [
+        "39"
+      ],
+      "area": "BTSวัดพระศรีมหาธาตุ)",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-40",
+      "name": "อัญญ่า บางนา - รามคำแหง 2",
+      "aliases": [
+        "อัญญ่า บางนา - รามคำแหง 2"
+      ],
+      "listingIds": [
+        "40"
+      ],
+      "area": "Mega Bangna",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-41",
+      "name": "มาสโทร 02 ร่วมฤดี",
+      "aliases": [
+        "มาสโทร 02 ร่วมฤดี"
+      ],
+      "listingIds": [
+        "41"
+      ],
+      "area": "BTS นานา",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-42",
+      "name": "ดิ เอสเตล พร้อมพงษ์",
+      "aliases": [
+        "ดิ เอสเตล พร้อมพงษ์"
+      ],
+      "listingIds": [
+        "42"
+      ],
+      "area": "BTS พร้อมพงษ์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-43",
+      "name": "แอชตัน จุฬา–สีลม",
+      "aliases": [
+        "แอชตัน จุฬา–สีลม"
+      ],
+      "listingIds": [
+        "43"
+      ],
+      "area": "MRT ส่ามย่าน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-44",
+      "name": "ศุภาลัย ลอฟท์ ภาษีเจริญ",
+      "aliases": [
+        "ศุภาลัย ลอฟท์ ภาษีเจริญ"
+      ],
+      "listingIds": [
+        "44"
+      ],
+      "area": "MRT ภาษีเจริญ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-45",
+      "name": "วีว่า สาทร ตากสิน",
+      "aliases": [
+        "วีว่า สาทร ตากสิน"
+      ],
+      "listingIds": [
+        "45"
+      ],
+      "area": "BTS วงเวียนใหญ่",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-46",
+      "name": "แบ้งค์คอก ฮอร์ไรซอน รัชดา-ท่าพระ",
+      "aliases": [
+        "แบ้งค์คอก ฮอร์ไรซอน รัชดา-ท่าพระ",
+        "Bangkok Horizon รัชดา–ท่าพระ"
+      ],
+      "listingIds": [
+        "46",
+        "94"
+      ],
+      "area": "BTS ตลาดพลู",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-47",
+      "name": "The Esse Sukhumvit 36",
+      "aliases": [
+        "The Esse Sukhumvit 36"
+      ],
+      "listingIds": [
+        "47"
+      ],
+      "area": "BTS ทองหล่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-48",
+      "name": "Conner Ratchathewi",
+      "aliases": [
+        "Conner Ratchathewi"
+      ],
+      "listingIds": [
+        "48"
+      ],
+      "area": "BTS ราชเทวี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-49",
+      "name": "ไนท์บริดจ์ สเปซ สุขุมวิท - พระราม 4",
+      "aliases": [
+        "ไนท์บริดจ์ สเปซ สุขุมวิท - พระราม 4"
+      ],
+      "listingIds": [
+        "49"
+      ],
+      "area": "BTS พระโขนง",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-50",
+      "name": "The Line Sukhumvit 101",
+      "aliases": [
+        "The Line Sukhumvit 101"
+      ],
+      "listingIds": [
+        "50"
+      ],
+      "area": "BTS ปุณณวิถี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-51",
+      "name": "M Jatujak",
+      "aliases": [
+        "M Jatujak"
+      ],
+      "listingIds": [
+        "51"
+      ],
+      "area": "MRT กำแพงเพชร",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-52",
+      "name": "The Address Sathorn",
+      "aliases": [
+        "The Address Sathorn"
+      ],
+      "listingIds": [
+        "52"
+      ],
+      "area": "BTS เซนต์หลุยส์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-53",
+      "name": "The Origin Plug & Play Ramintra",
+      "aliases": [
+        "The Origin Plug & Play Ramintra"
+      ],
+      "listingIds": [
+        "53"
+      ],
+      "area": "BTS  สถานีรามอินทรา กม.9",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-54",
+      "name": "XT Phayathai",
+      "aliases": [
+        "XT Phayathai"
+      ],
+      "listingIds": [
+        "54",
+        "80"
+      ],
+      "area": "BTSPhayathai",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-55",
+      "name": "The Metropolis Samrong",
+      "aliases": [
+        "The Metropolis Samrong"
+      ],
+      "listingIds": [
+        "55"
+      ],
+      "area": "BTS สำโรง",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-56",
+      "name": "The Base Bukit",
+      "aliases": [
+        "The Base Bukit"
+      ],
+      "listingIds": [
+        "56"
+      ],
+      "area": "ภูเก็ต",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-57",
+      "name": "So Origin Kaset Interchange",
+      "aliases": [
+        "So Origin Kaset Interchange"
+      ],
+      "listingIds": [
+        "57"
+      ],
+      "area": "ม.เกษตรศาสตร์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-58",
+      "name": "เอลลิโอ เดล เนสท์",
+      "aliases": [
+        "เอลลิโอ เดล เนสท์",
+        "เอลลิโอ เดล เนสต์"
+      ],
+      "listingIds": [
+        "58",
+        "90"
+      ],
+      "area": "BTS อุดมสุข",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-59",
+      "name": "C Ekkamai",
+      "aliases": [
+        "C Ekkamai"
+      ],
+      "listingIds": [
+        "59"
+      ],
+      "area": "เอกมัย",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-60",
+      "name": "Beatniq สุขุมวิท 32",
+      "aliases": [
+        "Beatniq สุขุมวิท 32"
+      ],
+      "listingIds": [
+        "60"
+      ],
+      "area": "BTS ทองหล่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-61",
+      "name": "ศุภาลัย ไพร์ม พระราม 9",
+      "aliases": [
+        "ศุภาลัย ไพร์ม พระราม 9"
+      ],
+      "listingIds": [
+        "61"
+      ],
+      "area": "Central พระราม 9",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-62",
+      "name": "Chapter Thonglor 25",
+      "aliases": [
+        "Chapter Thonglor 25"
+      ],
+      "listingIds": [
+        "62",
+        "140"
+      ],
+      "area": "BTS ทองหล่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-63",
+      "name": "นิช โมโน สุขุมวิท แบริ่ง",
+      "aliases": [
+        "นิช โมโน สุขุมวิท แบริ่ง"
+      ],
+      "listingIds": [
+        "63"
+      ],
+      "area": "BTS แบริ่ง",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-64",
+      "name": "วัน เวลา ณ เจ้าพระยา",
+      "aliases": [
+        "วัน เวลา ณ เจ้าพระยา"
+      ],
+      "listingIds": [
+        "64"
+      ],
+      "area": "MRT ศรีย่าน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-65",
+      "name": "The Reserve Sukhumvit 61",
+      "aliases": [
+        "The Reserve Sukhumvit 61"
+      ],
+      "listingIds": [
+        "65"
+      ],
+      "area": "BTS เอกมัย",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-66",
+      "name": "28 Chidlom",
+      "aliases": [
+        "28 Chidlom"
+      ],
+      "listingIds": [
+        "66"
+      ],
+      "area": "BTS ชิดลม",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-67",
+      "name": "Regent Home Wutthakart",
+      "aliases": [
+        "Regent Home Wutthakart"
+      ],
+      "listingIds": [
+        "67"
+      ],
+      "area": "BTS วุฒากาศ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-68",
+      "name": "The Saint Residences",
+      "aliases": [
+        "The Saint Residences"
+      ],
+      "listingIds": [
+        "68"
+      ],
+      "area": "BTS ห้าแยกลาดพร้าว",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-69",
+      "name": "The Reserve พหล-ประดิพัทธ์",
+      "aliases": [
+        "The Reserve พหล-ประดิพัทธ์"
+      ],
+      "listingIds": [
+        "69"
+      ],
+      "area": "BTS สะพานควาย",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-70",
+      "name": "The Address Siam",
+      "aliases": [
+        "The Address Siam"
+      ],
+      "listingIds": [
+        "70"
+      ],
+      "area": "BTS ราชเทวี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "The Address Siam may refer to a different project from The Address Siam Ratchathewi; do not merge without evidence."
+    },
+    {
+      "id": "project-71",
+      "name": "Quintara Phume Sukhumvit 39",
+      "aliases": [
+        "Quintara Phume Sukhumvit 39"
+      ],
+      "listingIds": [
+        "71",
+        "76"
+      ],
+      "area": "BTS พร้อมพงษ์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-72",
+      "name": "Life Asoke Hype",
+      "aliases": [
+        "Life Asoke Hype"
+      ],
+      "listingIds": [
+        "72",
+        "74"
+      ],
+      "area": "MRT พระราม 9",
+      "status": "verified",
+      "confidence": "high",
+      "lat": 13.7541882,
+      "lng": 100.563269,
+      "address": "339 Jaturatid Road, Makkasan, Ratchathewi, Bangkok",
+      "sources": [
+        "https://www.apthai.com/en/condominium/life-asoke-hype"
+      ],
+      "verifiedAt": "2026-11-10",
+      "reviewReason": "Named project location.map.lat/lng and address extracted from developer's Google map data. Not Google Places API validated; developer-marked project point."
+    },
+    {
+      "id": "project-73",
+      "name": "Noble State 39",
+      "aliases": [
+        "Noble State 39"
+      ],
+      "listingIds": [
+        "73"
+      ],
+      "area": "BTS พร้อมพงษ์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-75",
+      "name": "Muniq Sukhumvit 23",
+      "aliases": [
+        "Muniq Sukhumvit 23"
+      ],
+      "listingIds": [
+        "75"
+      ],
+      "area": "BTS อโศก",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-77",
+      "name": "COZY MRT เพชรเกษม 48",
+      "aliases": [
+        "COZY MRT เพชรเกษม 48"
+      ],
+      "listingIds": [
+        "77"
+      ],
+      "area": "MRT เพชรเกษม 48",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-78",
+      "name": "ศุภลัย เวลลิงตัน 2",
+      "aliases": [
+        "ศุภลัย เวลลิงตัน 2"
+      ],
+      "listingIds": [
+        "78"
+      ],
+      "area": "MRT ศูนย์วัฒนธรรม",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-79",
+      "name": "ศุภาลัย พรีเมียร์ สี่พระยา-สามย่าน",
+      "aliases": [
+        "ศุภาลัย พรีเมียร์ สี่พระยา-สามย่าน"
+      ],
+      "listingIds": [
+        "79"
+      ],
+      "area": "MRT สามย่าน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-81",
+      "name": "The Politan Rive",
+      "aliases": [
+        "The Politan Rive"
+      ],
+      "listingIds": [
+        "81"
+      ],
+      "area": "MRT พระนั่งเกล้า",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-82",
+      "name": "พาร์ค ออริจิ้น พญาไท",
+      "aliases": [
+        "พาร์ค ออริจิ้น พญาไท"
+      ],
+      "listingIds": [
+        "82"
+      ],
+      "area": "BTS พญาไท",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-83",
+      "name": "ชีวาทัย เกษตร-นวมินทร์",
+      "aliases": [
+        "ชีวาทัย เกษตร-นวมินทร์"
+      ],
+      "listingIds": [
+        "83"
+      ],
+      "area": "ม.เกษตรศาสตร์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-84",
+      "name": "PG RAMA 9",
+      "aliases": [
+        "PG RAMA 9"
+      ],
+      "listingIds": [
+        "84"
+      ],
+      "area": "MRT พระนั่งเกล้า",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Source area MRT Phra Nang Klao conflicts with PG RAMA 9 project name; manual review required."
+    },
+    {
+      "id": "project-85",
+      "name": "Nye by Sansiri",
+      "aliases": [
+        "Nye by Sansiri"
+      ],
+      "listingIds": [
+        "85"
+      ],
+      "area": "BTS วงเวียนใหญ่",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-86",
+      "name": "Metro Sky วุฒากาศ",
+      "aliases": [
+        "Metro Sky วุฒากาศ"
+      ],
+      "listingIds": [
+        "86"
+      ],
+      "area": "BTS วุฒากาศ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-87",
+      "name": "The Address Siam Ratchatewi",
+      "aliases": [
+        "The Address Siam Ratchatewi"
+      ],
+      "listingIds": [
+        "87"
+      ],
+      "area": "BTS ราชเทวีี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-88",
+      "name": "ริทึ่ม เอกมัย",
+      "aliases": [
+        "ริทึ่ม เอกมัย",
+        "Rhythm Ekkamai"
+      ],
+      "listingIds": [
+        "88",
+        "118"
+      ],
+      "area": "BTSเอกมัย",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-89",
+      "name": "Notting Hill สุขุมวิท 105 (ลาซาล)",
+      "aliases": [
+        "Notting Hill สุขุมวิท 105 (ลาซาล)"
+      ],
+      "listingIds": [
+        "89"
+      ],
+      "area": "BTS ลาซาล",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-91",
+      "name": "The Tree สุขุมวิท 71 - เอกมัย",
+      "aliases": [
+        "The Tree สุขุมวิท 71 - เอกมัย"
+      ],
+      "listingIds": [
+        "91"
+      ],
+      "area": "ARL รามคำแหง",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-92",
+      "name": "The Trust งามวงศ์วาน",
+      "aliases": [
+        "The Trust งามวงศ์วาน"
+      ],
+      "listingIds": [
+        "92"
+      ],
+      "area": "งามวงศ์วาน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-93",
+      "name": "บ้านมัณฑนา บางนา กม.7",
+      "aliases": [
+        "บ้านมัณฑนา บางนา กม.7"
+      ],
+      "listingIds": [
+        "93"
+      ],
+      "area": "Megaบางนา",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-95",
+      "name": "ศุภาลัย เวอเรนด้า สถานีภาษีเจริญ",
+      "aliases": [
+        "ศุภาลัย เวอเรนด้า สถานีภาษีเจริญ"
+      ],
+      "listingIds": [
+        "95"
+      ],
+      "area": "MRT ภาษีเจริญ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-96",
+      "name": "วิลล่า สาทร",
+      "aliases": [
+        "วิลล่า สาทร"
+      ],
+      "listingIds": [
+        "96"
+      ],
+      "area": "BTS กรุงธนบุรี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-97",
+      "name": "เดอะราฟเฟิล คอนโดมิเนียม",
+      "aliases": [
+        "เดอะราฟเฟิล คอนโดมิเนียม"
+      ],
+      "listingIds": [
+        "97"
+      ],
+      "area": "สถานีภาวนา",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-98",
+      "name": "ลุมพินี สวีท ดินแดง - ราชปรารภ",
+      "aliases": [
+        "ลุมพินี สวีท ดินแดง - ราชปรารภ"
+      ],
+      "listingIds": [
+        "98"
+      ],
+      "area": "BTS อนุสาวรีย์ชัยสมรภูมิ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-99",
+      "name": "ฌ็องเซลิเซ่ ติวานนท์-ศรีสมาน",
+      "aliases": [
+        "ฌ็องเซลิเซ่ ติวานนท์-ศรีสมาน"
+      ],
+      "listingIds": [
+        "99"
+      ],
+      "area": "MRT แจ้งวัฒนะ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-100",
+      "name": "Culture Chula",
+      "aliases": [
+        "Culture Chula"
+      ],
+      "listingIds": [
+        "100"
+      ],
+      "area": "MRT สามย่าน",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-101",
+      "name": "แพลนนารี สาทร",
+      "aliases": [
+        "แพลนนารี สาทร"
+      ],
+      "listingIds": [
+        "101"
+      ],
+      "area": "BTS กรุงธนบุรี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-102",
+      "name": "h2condo รามอินทรา 21",
+      "aliases": [
+        "h2condo รามอินทรา 21"
+      ],
+      "listingIds": [
+        "102"
+      ],
+      "area": "BTS ลาดปลาเค้า",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-103",
+      "name": "Aspire Rama 4",
+      "aliases": [
+        "Aspire Rama 4"
+      ],
+      "listingIds": [
+        "103"
+      ],
+      "area": "BTS เอกมัย",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-104",
+      "name": "Saranjai Mansion",
+      "aliases": [
+        "Saranjai Mansion"
+      ],
+      "listingIds": [
+        "104"
+      ],
+      "area": "BTS นานา",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-105",
+      "name": "Life Asoke",
+      "aliases": [
+        "Life Asoke"
+      ],
+      "listingIds": [
+        "105"
+      ],
+      "area": "MRT เพชรบุรี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-106",
+      "name": "Circle Phetchaburi",
+      "aliases": [
+        "Circle Phetchaburi"
+      ],
+      "listingIds": [
+        "106"
+      ],
+      "area": "MRT เพชรบุรี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-107",
+      "name": "แอสปาย งามวงศ์วาน",
+      "aliases": [
+        "แอสปาย งามวงศ์วาน"
+      ],
+      "listingIds": [
+        "107"
+      ],
+      "area": "ม.เกษตรฯ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-108",
+      "name": "ลุมพินี เพลส รัชดา-สาธุ",
+      "aliases": [
+        "ลุมพินี เพลส รัชดา-สาธุ"
+      ],
+      "listingIds": [
+        "108"
+      ],
+      "area": "เซ็นทรัลพระราม 3",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-109",
+      "name": "Knightsbridge Prime Onnut",
+      "aliases": [
+        "Knightsbridge Prime Onnut"
+      ],
+      "listingIds": [
+        "109"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-110",
+      "name": "Rich Point @BTS Wutthakat",
+      "aliases": [
+        "Rich Point @BTS Wutthakat"
+      ],
+      "listingIds": [
+        "110"
+      ],
+      "area": "BTS Wutthakat",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-111",
+      "name": "U Delight 2 @ Bang Sue Station",
+      "aliases": [
+        "U Delight 2 @ Bang Sue Station"
+      ],
+      "listingIds": [
+        "111"
+      ],
+      "area": "ประชาชื่น–บางซื่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-112",
+      "name": "Ideo Mobi Rangnam",
+      "aliases": [
+        "Ideo Mobi Rangnam"
+      ],
+      "listingIds": [
+        "112"
+      ],
+      "area": "BTS อนุสาวรีย์ชัยสมรภูมิ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-113",
+      "name": "Waterford Diamond Sukhumvit 30/1",
+      "aliases": [
+        "Waterford Diamond Sukhumvit 30/1"
+      ],
+      "listingIds": [
+        "113"
+      ],
+      "area": "BTS พร้อมพงษ์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-114",
+      "name": "Noble Around Ari",
+      "aliases": [
+        "Noble Around Ari"
+      ],
+      "listingIds": [
+        "114",
+        "122"
+      ],
+      "area": "อารีย์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-115",
+      "name": "Whizdom @Punnawithi Station Sukhumvit 64",
+      "aliases": [
+        "Whizdom @Punnawithi Station Sukhumvit 64"
+      ],
+      "listingIds": [
+        "115"
+      ],
+      "area": "BTS ปุณณวิถี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-116",
+      "name": "LIV@49",
+      "aliases": [
+        "LIV@49"
+      ],
+      "listingIds": [
+        "116"
+      ],
+      "area": "BTS ทองหล่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-117",
+      "name": "IKON Sukhumvit 77",
+      "aliases": [
+        "IKON Sukhumvit 77"
+      ],
+      "listingIds": [
+        "117"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-120",
+      "name": "LPN Suite Makkasan",
+      "aliases": [
+        "LPN Suite Makkasan"
+      ],
+      "listingIds": [
+        "120"
+      ],
+      "area": "มักกะสัน–เพชรบุรี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-121",
+      "name": "บ้านพระยาภิรมย์–รัชดา",
+      "aliases": [
+        "บ้านพระยาภิรมย์–รัชดา"
+      ],
+      "listingIds": [
+        "121"
+      ],
+      "area": "ซอยรัชดาภิเษก 36 แยก 11",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-123",
+      "name": "บลอคส์ 77",
+      "aliases": [
+        "บลอคส์ 77"
+      ],
+      "listingIds": [
+        "123"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-124",
+      "name": "Ideo Mobi Sukhumvit Eastpoint",
+      "aliases": [
+        "Ideo Mobi Sukhumvit Eastpoint"
+      ],
+      "listingIds": [
+        "124"
+      ],
+      "area": "BTS บางนา",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-125",
+      "name": "Chapter One Flow Kaset",
+      "aliases": [
+        "Chapter One Flow Kaset"
+      ],
+      "listingIds": [
+        "125"
+      ],
+      "area": "มหาวิทยาลัยเกษตร",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-126",
+      "name": "Aspire Onnut Station",
+      "aliases": [
+        "Aspire Onnut Station"
+      ],
+      "listingIds": [
+        "126"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-127",
+      "name": "ซิตี้โฮม สุขุมวิท 101/1",
+      "aliases": [
+        "ซิตี้โฮม สุขุมวิท 101/1"
+      ],
+      "listingIds": [
+        "127"
+      ],
+      "area": "BTS อุดมสุข",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-128",
+      "name": "เสนาคิทท์ ศรีนครินทร์-ศรีด่าน",
+      "aliases": [
+        "เสนาคิทท์ ศรีนครินทร์-ศรีด่าน"
+      ],
+      "listingIds": [
+        "128"
+      ],
+      "area": "ซ.สุขุมวิท 113",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-129",
+      "name": "The Tree Rio",
+      "aliases": [
+        "The Tree Rio"
+      ],
+      "listingIds": [
+        "129"
+      ],
+      "area": "MRT บางอ้อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-130",
+      "name": "Chamber Onnut",
+      "aliases": [
+        "Chamber Onnut"
+      ],
+      "listingIds": [
+        "130"
+      ],
+      "area": "BTS อ่อนนุช",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-131",
+      "name": "เดอะ เบส พระราม 9 - รามคำแหง",
+      "aliases": [
+        "เดอะ เบส พระราม 9 - รามคำแหง"
+      ],
+      "listingIds": [
+        "131"
+      ],
+      "area": "",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-132",
+      "name": "Aspire Rama 9",
+      "aliases": [
+        "Aspire Rama 9"
+      ],
+      "listingIds": [
+        "132"
+      ],
+      "area": "MRT พระราม 9",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-133",
+      "name": "ศุภาลัย รีเวอร์ รีสอร์ท เจริญนคร 57",
+      "aliases": [
+        "ศุภาลัย รีเวอร์ รีสอร์ท เจริญนคร 57"
+      ],
+      "listingIds": [
+        "133"
+      ],
+      "area": "BTS กรุงธนบุรี",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-134",
+      "name": "เดอะ เพรสซิเดนท์ สาทร-ราชพฤกษ์ 1 ห้",
+      "aliases": [
+        "เดอะ เพรสซิเดนท์ สาทร-ราชพฤกษ์ 1 ห้"
+      ],
+      "listingIds": [
+        "134"
+      ],
+      "area": "MRT บางหว้า",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-135",
+      "name": "เดอะ โนเบิล รีมิกซ์ ทองหล่อ",
+      "aliases": [
+        "เดอะ โนเบิล รีมิกซ์ ทองหล่อ"
+      ],
+      "listingIds": [
+        "135"
+      ],
+      "area": "BTS ทองหล่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-136",
+      "name": "Noble Form Thonglor",
+      "aliases": [
+        "Noble Form Thonglor"
+      ],
+      "listingIds": [
+        "136"
+      ],
+      "area": "BTS ทองหล่อ",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-137",
+      "name": "บริกซ์ตัน เพ็ทแอนด์เพลย์ พหล50 สเตชั่น",
+      "aliases": [
+        "บริกซ์ตัน เพ็ทแอนด์เพลย์ พหล50 สเตชั่น"
+      ],
+      "listingIds": [
+        "137"
+      ],
+      "area": "BTS สายหยุด",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    },
+    {
+      "id": "project-139",
+      "name": "แอสไพร์ ปิ่นเกล้า - อรุณอมรินทร์",
+      "aliases": [
+        "แอสไพร์ ปิ่นเกล้า - อรุณอมรินทร์"
+      ],
+      "listingIds": [
+        "139"
+      ],
+      "area": "MRT บางขุนนนท์",
+      "status": "pending",
+      "confidence": "unverified",
+      "lat": null,
+      "lng": null,
+      "address": "",
+      "sources": [],
+      "verifiedAt": null,
+      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+    }
+  ]
+}

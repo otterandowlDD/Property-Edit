@@ -16,7 +16,7 @@ export const readPrivateManifest=cache(async():Promise<Manifest>=>{
  return {...value,listings:Object.fromEntries(Object.entries(value.listings).filter(([id,l])=>/^\d+$/.test(id)&&l.id===id&&l.status==="ว่าง"&&l.websitePermission===true&&l.images.length>0))};
  }catch{console.error("Private listing image manifest unavailable");return empty;}
 });
-export function galleryPaths(listing:PrivateListing){return listing.images.filter(x=>/^[a-f0-9]{64}$/.test(x.sha256)&&x.path==="images/rent/pe-sheet-"+listing.id+"-"+x.sha256+".webp").map(x=>"/api/photos/"+listing.id+"/"+x.sha256);}
+export function galleryPaths(listing:PrivateListing){return listing.images.filter(x=>/^[a-f0-9]{64}$/.test(x.sha256)&&x.path==="images/rent/pe-sheet-"+listing.id+"-"+x.sha256+".webp").slice(0,1).map(x=>"/api/photos/"+listing.id+"/"+x.sha256);}
 export async function privatePhoto(id:string,hash:string){
  if(!/^\d+$/.test(id)||!/^[a-f0-9]{64}$/.test(hash))return null;
  const listing=(await readPrivateManifest()).listings[id];

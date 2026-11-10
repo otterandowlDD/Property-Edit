@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-10",
+  "mode": "one-cover",
+  "eligibleListings": 135,
+  "coveredListings": 135,
+  "newCoverImports": 133,
+  "reusedExistingCovers": 2,
+  "unmatchedListings": [],
+  "failedImports": [],
+  "storage": "private-blob",
+  "publicRepositoryPhotos": 0,
+  "validation": {
+    "privateReadback": "all 135 covers verified",
+    "localWebsiteImageHttp200": 135,
+    "desktopSingleCoverPerCard": true,
+    "galleryButtons": 0,
+    "mobileHorizontalOverflow": false,
+    "brokenImageFallback": true
+  },
+  "limitations": [
+    "Preview requires Vercel Authentication; deployed browser image checks require an authorized signed-in session.",
+    "Mapping follows source listing folders; unit ownership and availability are not independently certified."
+  ]
+}

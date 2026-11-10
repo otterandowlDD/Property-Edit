@@ -2,6 +2,7 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {put,get} from '@vercel/blob';
 import sharp from 'sharp';
+throw new Error('Multi-photo import disabled for this MVP. Use import-covers.mjs with reviewed single-cover selections.');
 const source=JSON.parse(await readFile(process.argv[2],'utf8'));
 if(source.websitePermission!==true||source.publicRepositoryPermission!==false||source.evidence!=='PE-WEB-20261109-TER')throw Error('Website-only permission required');
 if(new Set(source.listings.map(x=>x.id)).size!==source.listings.length)throw Error('Duplicate IDs');

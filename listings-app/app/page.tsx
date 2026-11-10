@@ -13,7 +13,7 @@ export default async function Page(){
  manual.forEach(x=>seen.add(x.id));
  const snapshot=sheetSnapshot.items.filter(x=>!seen.has(x.id));
  const listings:Listing[]=[...imported,...manual,...snapshot];
- const galleries=Object.fromEntries(Object.values(privateManifest.listings).map(x=>[x.id,galleryPaths(x)]));
- const images=Object.fromEntries(approved.filter(x=>x.imageUrl).map(x=>[x.id,x.imageUrl!]));
- return <Browser listings={listings} galleries={galleries} images={images} snapshotIds={snapshot.map(x=>x.id)} snapshotDate={sheetSnapshot.snapshotDate} warning={imported.length?"ภาพประกอบได้รับการยืนยันสิทธิ์ใช้บนเว็บไซต์ผ่านพาร์ตเนอร์ · โปรดยืนยันราคาและสถานะห้องก่อนนัดชม":""}/>;
+ 
+ const images=Object.fromEntries([...approved.filter(x=>x.imageUrl).map(x=>[x.id,x.imageUrl!]),...Object.values(privateManifest.listings).map(x=>[x.id,galleryPaths(x)[0]])]);
+ return <Browser listings={listings} images={images} snapshotIds={snapshot.map(x=>x.id)} snapshotDate={sheetSnapshot.snapshotDate} warning={imported.length?"ภาพประกอบได้รับการยืนยันสิทธิ์ใช้บนเว็บไซต์ผ่านพาร์ตเนอร์ · โปรดยืนยันราคาและสถานะห้องก่อนนัดชม":""}/>;
 }

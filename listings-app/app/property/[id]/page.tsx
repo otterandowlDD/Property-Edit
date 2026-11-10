@@ -1,3 +1,4 @@
+import CoverImage from "../../cover-image";
 import {notFound} from "next/navigation";
 import {readRecords} from "@/lib/publishing";
 import {readPrivateManifest,galleryPaths} from "@/lib/private-images";
@@ -16,8 +17,8 @@ export default async function PropertyPage({params}:{params:Promise<{id:string}>
  <h1 style={{font:"normal clamp(32px,6vw,60px) Georgia,serif"}}>{p.name}</h1><p>{p.location}</p>
  <h2>{p.rent?"฿"+money(p.rent)+" / month":p.sale?"฿"+money(p.sale):"สอบถามราคา"}</h2>
  <p>{[p.area?p.area+" ตร.ม.":"",p.bedrooms?p.bedrooms+" ห้องนอน":"",imported?.floor?"ชั้น "+imported.floor:""].filter(Boolean).join(" · ")}</p>
- <p>{photos.length} ภาพ · ภาพตามโฟลเดอร์ของพาร์ตเนอร์ อาจรวมพื้นที่ส่วนกลาง</p>
- <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(min(100%,320px),1fr))",gap:14}}>{photos.map((src,index)=><a key={src} href={src} target="_blank" rel="noopener noreferrer"><img src={src} alt={p.name+" ภาพ "+(index+1)} loading={index?"lazy":"eager"} style={{width:"100%",height:"auto",display:"block",borderRadius:10}}/></a>)}</div>
+ <p>ภาพปกจากโฟลเดอร์รายการของพาร์ตเนอร์</p>
+ <CoverImage src={photos[0]} name={p.name} loading="eager" style={{width:"100%",aspectRatio:"16/10",overflow:"hidden",borderRadius:10}}/>
  {manual?.caption&&<p style={{whiteSpace:"pre-line",lineHeight:1.8}}>{manual.caption}</p>}
  <a href="https://line.me/R/ti/p/@569xetng" target="_blank" rel="noopener noreferrer" style={{display:"inline-block",marginTop:28,padding:"14px 25px",background:"#25352e",color:"white"}}>สอบถามรายการ #{p.id} ผ่าน LINE</a>
  <p>ต้องยืนยันราคา สถานะ และเงื่อนไขกับผู้ดูแลก่อนทำธุรกรรม</p>

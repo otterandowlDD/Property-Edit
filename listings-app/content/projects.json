@@ -264,14 +264,16 @@
         "17"
       ],
       "area": "MRT พระราม 9",
-      "status": "pending",
-      "confidence": "unverified",
-      "lat": null,
-      "lng": null,
-      "address": "",
-      "sources": [],
-      "verifiedAt": null,
-      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+      "status": "verified",
+      "confidence": "high",
+      "lat": 13.754928,
+      "lng": 100.564536,
+      "address": "Makkasan, Ratchathewi, Bangkok",
+      "sources": [
+        "https://www.apthai.com/en/condominium/life-asoke-rama-9"
+      ],
+      "verifiedAt": "2026-11-10",
+      "reviewReason": "Matched exact project page title and named project location.map.lat/lng plus address in developer Google map data. Project-level point, not a unit address. Google Places identity check pending."
     },
     {
       "id": "project-18",
@@ -592,14 +594,16 @@
         "36"
       ],
       "area": "BTS เอกมัย",
-      "status": "pending",
-      "confidence": "unverified",
-      "lat": null,
-      "lng": null,
-      "address": "",
-      "sources": [],
-      "verifiedAt": null,
-      "reviewReason": "Awaiting authoritative Google Maps/Places location matching"
+      "status": "verified",
+      "confidence": "high",
+      "lat": 13.7292864,
+      "lng": 100.5858317,
+      "address": "Soi Ekkamai, Sukhumvit 63 Road, Khlong Tan Nuea, Watthana, Bangkok 10110",
+      "sources": [
+        "https://www.apthai.com/en/condominium/rhythm-ekkamai-estate"
+      ],
+      "verifiedAt": "2026-11-10",
+      "reviewReason": "Matched exact project page title and named project location.map.lat/lng plus address in developer Google map data. Project-level point, not a unit address. Google Places identity check pending."
     },
     {
       "id": "project-37",

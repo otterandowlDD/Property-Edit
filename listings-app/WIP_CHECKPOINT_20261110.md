@@ -1,5 +1,7 @@
 # WIP CHECKPOINT — PAUSED BY OWNER — 10 November 2026
 
+Historical checkpoint. The owner explicitly authorized continuation on 10 November 2026; see RESUME_STATUS_20261110.md for resumed work. The stop instruction below records the earlier pause, not a new restriction.
+
 STOP. Do not resume development, imports, browser work, deployments, merging or social publication automatically. Continue only after the owner explicitly authorizes it.
 
 Existing repo: otterandowlDD/Property-Edit. Existing PR #1. Feature branch: feature/google-drive-live-listings-20261109. Base: 53b860c586927d3b81106bd30f62a82fcbd30b15. This checkpoint is incomplete Maps work, not a release.

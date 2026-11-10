@@ -14,7 +14,7 @@ assert.equal(ids.length,135);assert.equal(new Set(ids).size,135);
 assert.deepEqual([...ids].sort(),availability.items.map(x=>x.id).sort());
 assert.equal(directory.projects.length,124);
 const verified=directory.projects.filter(p=>p.status==='verified');
-assert.equal(verified.length,2);
+assert.equal(verified.length,4);
 for(const p of directory.projects){if(p.status==='verified'){assert.ok(p.lat&&p.lng&&p.sources.length&&p.verifiedAt);}else{assert.equal(p.lat,null);assert.equal(p.lng,null);}}
 const project=id=>directory.projects.find(p=>p.listingIds.includes(id));
 assert.equal(project('31'),project('38'));assert.equal(project('72'),project('74'));
@@ -27,7 +27,7 @@ class TestMarker extends HTMLElement{constructor(options){super();this.position=
 customElements.define('test-google-marker',TestMarker);
 window.google={maps:{Map:TestMap,LatLngBounds:TestBounds,marker:{AdvancedMarkerElement:TestMarker},event:{clearInstanceListeners(){}},importLibrary:async()=>({})}};window.peMapsReady?.();`;
 const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{})});
-const report={directory:{listings:135,projects:124,verified:2,pending:122},sdk:'isolated test double; not live Google Maps',passed:[]};
+const report={directory:{listings:135,projects:124,verified:4,pending:120},sdk:'isolated test double; not live Google Maps',passed:[]};
 const check=(name)=>report.passed.push(name);
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
@@ -44,7 +44,7 @@ try{
  const mapPage=await browser.newPage({viewport:{width:1440,height:1000}});mapPage.on('pageerror',e=>errors.push(e.message));
  await mapPage.route('https://maps.googleapis.com/**',r=>r.fulfill({contentType:'text/javascript',body:sdk}));
  await mapPage.goto(configured,{waitUntil:'networkidle'});await mapPage.locator('.owl-marker').first().waitFor();
- assert.equal(await mapPage.locator('.owl-marker').count(),2);assert.deepEqual(await mapPage.evaluate(()=>window.__mapEvents.find(e=>e[0]==='bounds')[1]),verified.map(p=>({lat:p.lat,lng:p.lng})));check('two project markers at exact verified coordinates and fitted bounds');
+ assert.equal(await mapPage.locator('.owl-marker').count(),4);assert.deepEqual(await mapPage.evaluate(()=>window.__mapEvents.find(e=>e[0]==='bounds')[1]),verified.map(p=>({lat:p.lat,lng:p.lng})));check('four project markers at exact verified coordinates and fitted bounds');
  let interactions=0;
  for(const name of ['Life Asoke Hype',"ควินทารา มาย'เซน พร้อมพงษ์"]){
   await mapPage.getByRole('button',{name:'ล้างตัวกรองทั้งหมด'}).click();
@@ -61,15 +61,17 @@ try{
  await mapPage.locator('[data-listing-id="74"] .show-project').click();
  assert.equal(await mapPage.locator('.project-summary h3').textContent(),'Life Asoke Hype');check('listing-to-map project selection');
  await mapPage.getByRole('button',{name:'ล้างตัวกรองทั้งหมด'}).click();
- await mapPage.locator('[data-listing-id="2"] .show-project').click();assert.ok((await mapPage.locator('.project-summary').textContent()).includes('รอตรวจสอบ'));assert.equal(await mapPage.locator('.owl-marker').count(),2);check('missing coordinates never create guessed pins');
+ await mapPage.locator('[data-listing-id="2"] .show-project').click();assert.ok((await mapPage.locator('.project-summary').textContent()).includes('รอตรวจสอบ'));assert.equal(await mapPage.locator('.owl-marker').count(),4);check('missing coordinates never create guessed pins');
  await mapPage.getByLabel('ค้นหาโครงการหรือทำเล').fill('ไม่มีโครงการนี้');assert.equal(await mapPage.locator('.owl-marker').count(),0);assert.equal(await mapPage.locator('.project-summary').count(),0);check('empty filters remove markers and stale selection');
  await mapPage.getByRole('button',{name:'ล้างตัวกรองทั้งหมด'}).click();
  await mapPage.setViewportSize({width:390,height:844});await mapPage.locator('.owl-marker').first().click();assert.equal(await mapPage.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);check('mobile 390px: no page overflow and tappable owl');
  await mapPage.screenshot({path:'/tmp/pe-map-mobile.png',fullPage:true});
+ await mapPage.setViewportSize({width:820,height:1180});assert.equal(await mapPage.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);check('tablet 820px: no page overflow');
  await mapPage.setViewportSize({width:1440,height:1000});await mapPage.screenshot({path:'/tmp/pe-map-desktop.png',fullPage:true});
- const broken=await browser.newPage();await broken.route('https://maps.googleapis.com/**',r=>r.abort());await broken.route('**/api/photos/**',r=>r.fulfill({status:404,body:''}));await broken.goto(configured,{waitUntil:'networkidle'});await broken.locator('.project-options button').filter({hasText:'Life Asoke Hype'}).click();await broken.locator('.project-summary').scrollIntoViewIfNeeded();await broken.locator('.project-summary .no-image').waitFor();check('project cover broken/missing-image fallback');
+ const broken=await browser.newPage();await broken.route('https://maps.googleapis.com/**',r=>r.abort());await broken.route('**/api/photos/72/**',r=>r.fulfill({status:404,body:''}));await broken.goto(configured,{waitUntil:'networkidle'});await broken.locator('.project-options button').filter({hasText:'Life Asoke Hype'}).click();await broken.locator('.project-summary').scrollIntoViewIfNeeded();await broken.locator('.project-summary .no-image').waitFor();check('project cover broken/missing-image fallback');await broken.getByLabel('ห้องนอน').selectOption('S');await broken.locator('.project-summary').scrollIntoViewIfNeeded();await broken.waitForFunction(()=>document.querySelector('.project-cover img')?.naturalWidth>0);check('cover recovers when bedroom filter selects another unit in the same project');
  const failure=await browser.newPage();await failure.route('https://maps.googleapis.com/**',r=>r.abort());await failure.goto(configured,{waitUntil:'networkidle'});await failure.getByRole('status').filter({hasText:'โหลด Google Maps ไม่สำเร็จ'}).waitFor();check('SDK network failure state');
  const auth=await browser.newPage();await auth.route('https://maps.googleapis.com/**',r=>r.fulfill({contentType:'text/javascript',body:sdk+';setTimeout(()=>window.gm_authFailure?.(),50);'}));await auth.goto(configured,{waitUntil:'networkidle'});await auth.getByRole('status').filter({hasText:'โหลด Google Maps ไม่สำเร็จ'}).waitFor();check('Google authentication/billing failure state');
+ const rejected=await browser.newPage();let rejectedRequests=0;await rejected.route('https://maps.googleapis.com/**',r=>{rejectedRequests++;return r.abort();});await rejected.goto(configured.replace('127.0.0.1','localhost'),{waitUntil:'networkidle'});await rejected.getByRole('status').filter({hasText:'โหลด Google Maps ไม่สำเร็จ'}).waitFor();assert.equal(rejectedRequests,0);check('unapproved hostname rejected before SDK request');
  assert.deepEqual(errors,[]);check('no browser JavaScript exceptions');
  report.passed.push('directory IDs, alias grouping, distinct phases, null pending coordinates');
 }finally{await browser.close();await fs.writeFile('/tmp/pe-map-tests.json',JSON.stringify(report,null,2));}
